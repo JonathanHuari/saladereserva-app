@@ -1,0 +1,34 @@
+# Informe Técnico: Proyecto Sala de Reserva App
+
+## 1. Uso de Git y GitHub
+### ¿Qué es Git y GitHub?
+Git es un sistema de control de versiones distribuido que permite llevar un seguimiento de los cambios en el código fuente. GitHub es una plataforma basada en la nube que facilita la colaboración y el almacenamiento de proyectos Git.
+
+### ¿Cómo usamos Git y GitHub en este proyecto?
+- Repositorio en GitHub
+- Ramas: main, develop, feature, hotfix
+- Commits y Pull Requests
+
+## 2. Aplicación de GitFlow
+### ¿Qué es GitFlow?
+GitFlow es un modelo de flujo de trabajo para Git que define un conjunto de ramas específicas para gestionar el desarrollo de software de manera organizada.
+
+### Uso de GitFlow en el proyecto
+- Rama main, develop, feature, release y hotfix
+
+## 3. CI/CD Configurado
+### ¿Qué es CI/CD?
+CI y CD son prácticas que permiten la automatización de pruebas y despliegue.
+
+### Herramientas usadas en este proyecto
+- GitHub Actions
+
+## 4. Manejo de Conflictos
+### ¿Qué son los conflictos en Git?
+Un conflicto ocurre cuando dos ramas modifican la misma parte del código de manera incompatible.
+
+### Cómo se resolvieron los conflictos
+- Resolución manual y pruebas posteriores.
+
+## 5. Capturas de Pantalla
+Incluir capturas de pantalla de la estructura de GitHub, flujos de trabajo CI/CD, etc.
