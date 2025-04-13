@@ -2,34 +2,10 @@
 PA02
 # El software consiste en gestionar el servicio de un restaurante. Todos los dispositivos de hardware que soportan al sistema están conectados en red local mediante tecnología inalámbrica. El sistema debe tener las siguientes funciones.
 
-body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #f4f4f4;
-  color: #333;
-}
+# •	Presentación de menús a comensales: Los camareros utilizan Tablet PC’s para presentar en las mesas los menús y platos que ofrece el restaurante a los clientes, incluyendo sus precios. Cada camarero gestiona un grupo de mesas, numeradas de 1 a n. El gerente utiliza el sistema para configurar cada semana, el número de mesas y la asignación de camareros a éstas. La información de los camareros (DNI, apellidos y nombres) es obtenida del subsistema de recursos humanos. El gerente puede realizar consultas para obtener una lista ordenada por mesas en la que se indica el resumen de ventas en dicha mesa y los camareros asignados en un determinado periodo de tiempo.
+# •	Recepción de peticiones en las mesas: Utilizando este mismo dispositivo los camareros anotan las peticiones de los clientes, y se calcula un presupuesto inicial que se le indica a los comensales. El sistema almacena la hora de la petición.
+# •	Gestión en cocina de solicitudes, elaboración de platos y avisos de fin de elaboración de platos: Estas peticiones son visualizadas en la cocina utilizando una pizarra interactiva conectada a un PC. Esta pizarra muestra los platos solicitados ordenados por hora y mesa. Sobre ella, interaccionando con un dedo, los cocineros indican los platos ya listos para ser servidos una vez los han terminado de cocinar. El sistema tiene que recoger la hora de finalización de un plato.
+# •	Entrega de platos: Los camareros consultan en su Tablet PC, si los platos están terminados y los recogen en la cocina para llevárselos a los comensales. Los platos que no requieren elaboración en cocina (bebidas, pan, algunos postres) son recogidos directamente por el camarero en el almacén de la cocina.
+# •	Facturación: Las boletas y facturas son emitidas directamente por los camareros desde sus Tablet PC’s, utilizando una impresora común conectada “sin cables”. Las boletas y facturas se emiten cuando los clientes piden la cuenta.
 
-header {
-  background: #007acc;
-  color: white;
-  padding: 2rem;
-  text-align: center;
-}
-
-section {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
-}
-
-footer {
-  background: #222;
-  color: white;
-  text-align: center;
-  padding: 1rem;
-}
-
-a {
-  color: #66ccff;
-  text-decoration: none;
-}
+ 
