@@ -1,8 +1,12 @@
 {
   "scripts": {
-  "test": "jest"
-},
+    "test": "jest"
+  },
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7"
   }
 }
